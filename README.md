@@ -37,4 +37,8 @@ Block code:
 | Header      | Title       |
 | Paragraph   | Text        |
 
+<<<<<<< HEAD
 HandleA đã edit phần này
+=======
+Phần này đã được edit bởi HandleB
+>>>>>>> HandleB
