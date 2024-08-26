@@ -1,18 +1,20 @@
 {
-  "name": "studynodejs",
-  "version": "0.0.1",
-  "description": "for study",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "author": "Trong",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+    "name": "studynodejs",
+    "version": "0.0.1",
+    "description": "for study",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Trong",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "cookie-parser": "^1.4.6",
+        "nodemon": "^3.1.4"
+    }
 }
