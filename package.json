@@ -2,8 +2,7 @@
     "name": "studynodejs",
     "version": "0.0.1",
     "description": "for study",
-    "main": "index.js",
-    "type": "module",
+    "main": "index.cjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js"
@@ -11,7 +10,8 @@
     "author": "Trong",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.19.2"
+        "express": "^4.19.2",
+        "express-validator": "^7.2.0"
     },
     "devDependencies": {
         "cookie-parser": "^1.4.6",
